@@ -18,7 +18,7 @@ from time import sleep, time
 import datetime
 import xml.etree.ElementTree as ET
 import ast
-import urllib
+from urllib import request as urllib
 
 
 class Client(object):
